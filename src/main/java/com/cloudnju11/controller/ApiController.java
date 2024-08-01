@@ -14,7 +14,8 @@ import java.time.Duration;
 /**
  * ClassName: ApiController
  * Package: com.cloudnju11.controller
- * Description:
+ * Description:1.实现一个 REST 接口（简单接口即可，比如 json 串 {"msg":"hello"}）
+ *             2.接口提供限流功能，当请求达到每秒 100 次的时候，返回 429（Too many requests）
  *
  * @Author: mancanghai
  * @Create: 2024/8/1 - 15:21
