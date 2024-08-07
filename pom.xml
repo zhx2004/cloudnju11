@@ -14,6 +14,7 @@
     <groupId>org.example</groupId>
     <artifactId>cloudnju11</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>cloudnju11</name>
 
     <properties>
         <java.version>8</java.version>
@@ -33,6 +34,7 @@
     </dependencies>
 
     <build>
+        <finalName>cloudnju11</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

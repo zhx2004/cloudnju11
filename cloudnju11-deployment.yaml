@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudnju11
+  labels:
+    app: cloudnju11
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cloudnju11
+  template:
+    metadata:
+      labels:
+        app: cloudnju11
+    spec:
+      hostname: cloudnju11
+      containers:
+      - name: cloudnju11
+        image: cloudnju11:2024
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        resources:
+          requests:
+            cpu: 1
+            memory: 512Mi
+          limits:
+            cpu: 1
+            memory: 512Mi

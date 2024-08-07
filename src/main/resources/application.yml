@@ -1,6 +1,9 @@
 spring:
+  application:
+    name: cloudnju11
   redis:
     host: ${SPRING_REDIS_HOST}
     port: ${SPRING_REDIS_PORT}
-
+server:
+  port: 9090
 
